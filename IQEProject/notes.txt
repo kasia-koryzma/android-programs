@@ -1,0 +1,9 @@
+This project shows an example of incorporating external image recognition software created by IQ Engines
+ 
+The first window prompts to register/log in. You must therefore register first if you want to progress further to
+access the application's menu.
+
+Click on the Challenges tab, choose your options from drop down lists (time  and difficulty) and click on
+'Set your treasure hunt' to generate list of random items. click on any of those item and camera will
+start. You must take a photo of appropriate item in order to connect with IQ Engines. You also need 
+internet connection on your mobile device to be on.

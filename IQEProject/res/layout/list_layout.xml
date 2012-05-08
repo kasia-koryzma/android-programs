@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="wrap_content">
+     <ListView
+        android:background="@drawable/border"
+        android:id="@+id/taskList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.03"
+        android:divider="@drawable/list_divider"
+        android:textColor="#444444"
+        android:dividerHeight="1dp"
+        android:cacheColorHint="#00000000"
+        android:textSize="12dp"
+        
+        />
+</RelativeLayout>

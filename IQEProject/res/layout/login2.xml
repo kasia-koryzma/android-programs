@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/wallmain"    
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" android:padding="10dip">
+
+
+ <TextView
+
+       android:id="@+id/lblUsername"
+
+       android:layout_width="fill_parent"
+
+       android:layout_height="wrap_content"      
+
+       android:textSize="20sp" android:text="Username:"
+
+       android:textStyle="bold"
+
+       android:layout_marginBottom="8dip"
+
+       />
+
+      <EditText
+
+                android:id="@+id/txtUsername"
+
+                android:layout_below="@id/lblUsername"
+
+                android:layout_width="fill_parent"
+
+                        android:layout_height="wrap_content"                   
+
+                        android:textSize="12sp"
+
+                        android:layout_marginBottom="8dip"
+
+                />
+
+          <TextView
+
+      android:id="@+id/lblPassword"
+
+        android:layout_below="@id/txtUsername"
+
+       android:layout_width="fill_parent"
+
+       android:layout_height="wrap_content"      
+
+       android:textSize="20sp" android:text="Password:"
+
+       android:textStyle="bold"
+
+      android:layout_marginBottom="8dip"
+
+       />
+
+      <EditText
+
+                android:id="@+id/txtPassword"
+
+             android:layout_below="@id/lblPassword"
+
+              android:layout_width="fill_parent"
+
+                       android:layout_height="wrap_content"                   
+
+                       android:textSize="12sp"
+
+                       android:layout_marginBottom="8dip"
+
+                     android:password="true"
+
+               />  
+
+             
+
+          <Button
+
+                       android:id="@+id/btnLogin"
+
+                       android:layout_below="@id/txtPassword"
+
+                       android:layout_width="fill_parent"
+
+                       android:layout_height="wrap_content"
+
+                       android:text="Login"           
+
+              />   
+ 
+ </RelativeLayout>

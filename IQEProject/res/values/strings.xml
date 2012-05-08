@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">Custom Menu Bar</string>
+    <string name="search">Custom Tab Menu Bar Example - Search Page</string>
+    <string name="share">Custom Tab Menu Bar Example - Share Page</string>
+    <string name="website">Custom Tab Menu Bar Example - Website Page</string>
+    <string name="settings">Custom Tab Menu Bar Example - Settings Page</string>
+    <string name="quit">Exiting... Please Wait</string>
+    <string name="hello">Hello World, DemoActivity!</string>
+<string name="app_name2">Iqengines-demo</string>
+<string name="start_capture">Start capture</string>
+<string name="stop_capture">Stop capture</string>
+<string name="list_open">Open List</string>
+<string name="list_close">Close List</string>
+</resources>

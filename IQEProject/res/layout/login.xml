@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+        android:background="@drawable/wallmain"    
+     >
+    
+    <TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent">
+
+    <TableRow android:layout_width="fill_parent" >
+ 
+        <TextView 
+            android:text="Login Name:"
+            android:width ="120px"
+            />
+        <EditText 
+            android:id="@+id/name" 
+            android:width="200px"
+            android:paddingRight="10dp" />
+    </TableRow> 
+    <TableRow>
+        <TextView 
+            android:text="Password"
+            />
+        <EditText 
+            android:id="@+id/txtPassword" 
+            android:password="true" 
+            />
+    </TableRow>
+    <TableRow>
+        <TextView 
+            android:text="Confirm Password:"
+            />
+        <EditText 
+            android:id="@+id/txtPassword2" 
+            android:password="true" 
+            />
+    </TableRow>
+    <TableRow>
+        <TextView />   
+    </TableRow>
+    <TableRow>
+        </TableRow>
+        <TableRow>
+        </TableRow>
+    <TableRow>
+        <Button 
+            android:layout_weight="0.5"
+            android:layout_width="80px"
+            android:layout_marginTop="10dp"
+            android:id="@+id/login" 
+            android:text="Create account" />
+    </TableRow>
+    <TableRow>
+         <Button 
+            android:layout_weight="0.5"
+            android:layout_width="80px"
+            android:layout_marginTop="10dp"
+            android:id="@+id/backLog" 
+            android:text="Log in" />
+    </TableRow>
+    <TableRow>
+        </TableRow><TableRow>
+        </TableRow><TableRow>
+        </TableRow>
+    <TableRow>
+        <Button 
+            android:layout_weight="0.5"
+            android:layout_width="10px"
+                   android:layout_margin="80dp"
+            android:id="@+id/exit" 
+            android:text="Exit" />
+        </TableRow>
+</TableLayout>
+
+   
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:textColor="#800080"
+    >
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent" android:layout_height="match_parent" >        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:textColor="#800080" >
+"
+</TabWidget>
+        <FrameLayout android:id="@android:id/tabcontent"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+            <ScrollView
+                android:id="@+id/tab1"
+                android:layout_width="match_parent"
+                android:layout_height="587dp"
+                android:text="This is a button" >
+</ScrollView>
+            <ScrollView android:id="@+id/tab2" android:text="This is another button" 
+                android:layout_width="match_parent" android:layout_height="match_parent"></ScrollView>
+            <TextView android:id="@+id/tab3" android:text="This is a text"
+                android:layout_width="match_parent" android:layout_height="match_parent"></TextView>
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>
